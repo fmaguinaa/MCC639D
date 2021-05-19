@@ -50,8 +50,8 @@ def main():
     tabla = [
         [1, 2, "E"],
         [1, 3, "A"],
-        [4, 2, "E"],
-        [1, 3, "A"],
+        [4, 2, "A"],
+        [1, 3, "E"],
         [4, 2, "E"]
     ]
     estado = 0
@@ -80,7 +80,7 @@ def main():
         contenido(estadosig, character, simbolo, estado)
 
     if valid:
-        if (estado != 1 and estado != 3):
+        if (estado != 1 and estado != 2):
             messageInvalid()
         else:
             print(
