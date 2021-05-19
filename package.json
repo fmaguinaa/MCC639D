@@ -1,0 +1,12 @@
+{
+    "name": "mcc639d",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "task01:p1": "nodemon --exec python task01/p1.py",
+      "task01:p2": "nodemon --exec python task01/p2.py"
+    },
+    "author": "",
+    "license": "ISC"
+  }
